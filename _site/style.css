@@ -1,0 +1,76 @@
+.menu {
+  text-align: center;
+  background-color: #DEEDFF;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 30px;
+}
+
+.menu a {
+  font-size: 30px;
+  font-family: "Roboto Serif", serif;
+  text-decoration: none;
+  color: black;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+  border: 3px solid black;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h3, h1 {
+  text-align: center;
+  font-family: "Roboto Serif", serif;
+}
+
+h3 {
+  font-size: 35px;
+  font-style: italic;
+}
+
+.container {
+  position: relative;
+  min-height: 1000px;
+  min-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #DEEDFF url(image/pejsek4.png) no-repeat center/contain;
+}
+
+.container::before {
+  background: #DEEDFF url(image/pejsek4.png) no-repeat center/contain;
+  filter: blur(3px);
+  content: "";
+  position: absolute;
+}
+
+.container__firt {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  background: white;
+  font-size: 28px;
+  margin-top: 50px;
+}
+
+.container__second {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  background: white;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.footer {
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
